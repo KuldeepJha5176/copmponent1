@@ -1,13 +1,9 @@
-
-import Container from "../../components/Container";
-
 export default function Home() {
   return (
-    <div className="flex min-h-screen items-start justify-start bg-neutral-200 dark:bg-neutral-800">
-       <Container className="min-h-screen px-8 pt-10 md:pt-16 md:pb-10 ">
-        <h1 className="text-4xl font-bold text-white"> hello 2</h1>
-       </Container>
+    <div className="relative h-full w-full ">
+      <div className=" absolute inset-0 z-0 rounded-lg 
+      mx-auto bg-[image:repeating-linear-gradient(315deg,_var(--pattern-fg)_0,_var(--pattern-fg)_1px,_transparent_0,_transparent_50%)] 
+      bg-[size:10px_10px] bg-fixed"></div>
     </div>
-   
   );
 }
